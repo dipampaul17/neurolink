@@ -1,3 +1,5 @@
+<div align="center">
+
 # NeuroLink: Cyberpunk Data Recovery
 
 ```
@@ -15,108 +17,157 @@
  \_____\__, |_.__/ \___|_|  | .__/ \__,_|_|_| |_|
         __/ |               | |                 
        |___/                |_|                 
-       
-Data Recovery System
 ```
 
-*A cyberpunk arcade game created with Amazon Q CLI for the 2025 AWS Summer Hack Challenge*
+<h3><em>A neon-drenched cyberpunk arcade experience</em></h3>
 
 [![GitHub repo](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/dipampaul17/neurolink)
 [![Made with Amazon Q](https://img.shields.io/badge/Made%20with-Amazon%20Q%20CLI-orange.svg)](https://aws.amazon.com/q/)
+[![Python 3.x](https://img.shields.io/badge/Python-3.x-green.svg)](https://www.python.org/)
+[![Pygame](https://img.shields.io/badge/Pygame-2.x-red.svg)](https://www.pygame.org/)
 
-## Created for the Amazon Q Summer Hack Challenge 2025
+</div>
 
-A thrilling cyberpunk-themed arcade game where you navigate the digital realm as a Data Interceptor, recovering vital data fragments from corrupted network nodes in a neon-drenched cyberspace. Built with Python, Pygame, and **Amazon Q** to showcase the power of AI-assisted game development.
+## 🌐 About
 
-### 🌟 Game Features
+Enter the digital grid as a Data Interceptor on a mission to recover corrupted fragments from the depths of cyberspace. Navigate through a vibrant neon landscape, interface with evolving data nodes, and battle against firewalls in this cyberpunk-themed arcade experience.
 
-- **Immersive Cyberpunk Universe**: Navigate a sleek Data Interceptor through a vibrant digital grid with dynamic neon visuals
-- **Evolving Data Fragments**: Encounter data fragments that evolve as they descend through the network layers
-- **Epic Firewall Node Battles**: Face challenging boss battles every 5 network levels
-- **Advanced Data Packet System**: Launch targeted packets to interface with descending fragments
-- **Neural Synchronization Scoring**: Earn higher scores with successful interfaces and build combo multipliers
-- **System Upgrades**: Collect digital augmentations to enhance your capabilities
-- **Dynamic Difficulty**: Experience increasing challenges as you progress deeper into the network
-- **Pulsating Neon Visuals**: Enjoy a stunning 800x600 viewport with animated cyberpunk aesthetics
-- **Synthwave Atmosphere**: Immerse yourself with digital sound effects and particle visualizations
-- **Responsive Controls**: Precise and intuitive gameplay designed for maximum enjoyment
+*Built with Python, Pygame, and **Amazon Q CLI** for the 2025 AWS Summer Hack Challenge.*
 
-### 🎮 Controls
+## ✨ Features & Gameplay
 
-- **Arrow Keys**: Navigate your Data Interceptor through the digital grid
-- **Spacebar**: Launch data packets to interface with fragments
-- **P**: Pause neural connection
-- **M**: Toggle audio atmosphere
-- **R**: Reinitiate system after connection failure
-- **N**: Proceed to next network level after success
-- **Q**: Terminate connection (during game over or level complete)
+<table>
+  <tr>
+    <td width="60%">
+      <h3>🎮 Core Experience</h3>
+      <ul>
+        <li><b>Immersive Digital Grid:</b> Navigate a sleek Data Interceptor through neon-lit cyberspace</li>
+        <li><b>Evolving Data Fragments:</b> Target fragments that transform as they descend through the network</li>
+        <li><b>Firewall Node Battles:</b> Face challenging boss encounters every 5 network layers</li>
+        <li><b>Neural Synchronization:</b> Build score multipliers with rapid packet transmissions</li>
+        <li><b>Pulsating Visuals:</b> Experience dynamic cyberpunk aesthetics with animated elements</li>
+      </ul>
+    </td>
+    <td width="40%">
+      <h3>🔧 System Upgrades</h3>
+      <ul>
+        <li><b>Neural Shield</b> <i>(Neon Blue)</i>: One-hit protection</li>
+        <li><b>Bandwidth Boost</b> <i>(Neon Yellow)</i>: Double shot capability</li>
+        <li><b>System Integrity</b> <i>(Neon Green)</i>: Extra life</li>
+        <li><b>Trace Eliminator</b> <i>(Neon Pink)</i>: Screen-clearing power</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-### 💾 System Upgrades
+## 🕹️ Interface Protocol
 
-- **Neural Shield** <span style="color:#00c3ff">(Neon Blue)</span>: Protects your interceptor from one hostile data fragment
-- **Bandwidth Boost** <span style="color:#ffea00">(Neon Yellow)</span>: Doubles your data packet transmission rate
-- **System Integrity** <span style="color:#00ff50">(Neon Green)</span>: Adds an additional life to your interceptor
-- **Trace Eliminator** <span style="color:#ff0099">(Neon Pink)</span>: Purges all data fragments from the current screen
+| Input | Function |
+|-------|----------|
+| **←/→** | Navigate your Data Interceptor |
+| **Space** | Launch data packets |
+| **P** | Pause neural connection |
+| **M** | Toggle audio atmosphere |
+| **R** | Reinitiate after system crash |
+| **N** | Proceed to next network layer |
+| **Q** | Terminate connection |
 
-## 🔧 System Requirements
+## 💾 Installation
 
-- Python 3.x
-- Pygame 2.x
-- Any modern operating system (Windows/macOS/Linux)
+<table>
+  <tr>
+    <td>
+      <h3>Quick Start</h3>
+      <p>For the easiest setup, use our installation scripts:</p>
+      <ul>
+        <li><b>macOS/Linux:</b> <code>./install.sh</code></li>
+        <li><b>Windows:</b> Double-click <code>install.bat</code></li>
+      </ul>
+      <p>Then run: <code>python neurolink.py</code></p>
+    </td>
+    <td>
+      <h3>Requirements</h3>
+      <ul>
+        <li>Python 3.x</li>
+        <li>Pygame 2.x</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-## 💻 Installation Protocol
+<details>
+  <summary><b>Manual Installation</b></summary>
+  
+```bash
+# Create virtual environment
+python -m venv neurolink-env
 
-1. Ensure your system has Python 3.x installed
-2. Create an isolated virtual environment (recommended):
-   ```bash
-   python -m venv neurolink-env
-   source neurolink-env/bin/activate  # On Windows: neurolink-env\Scripts\activate
-   ```
-3. Install required dependencies:
-   ```bash
-   pip install pygame
-   ```
-4. [Optional] Add sound files to the `sounds` directory for full audio experience
-5. Execute the main program:
-   ```bash
-   python neurolink.py
-   ```
+# Activate environment
+source neurolink-env/bin/activate  # On Windows: neurolink-env\Scripts\activate
 
-## 🔄 System Mechanics
+# Install dependencies
+pip install -r requirements.txt
 
-- **Evolving Data Fragments**: Data fragments start as simple forms and evolve through multiple states as they descend
-- **Fragment Resistance**: Each data packet interaction increases fragment complexity until they can be successfully recovered
-- **Neural Synchronization**: Score increases with each successful data fragment interface
-- **Combo Multiplier**: Rapid consecutive packet transmissions build a multiplier for exponential score growth
-- **Network Layer Difficulty**: Data fragments move faster and with more complex patterns as you progress
-- **Firewall Node Encounters**: Every 5 levels features a challenging firewall node with unique defense patterns
-- **System Upgrade Collection**: Collect augmentations dropped by successfully recovered data fragments
+# Run the game
+python neurolink.py
+```
+</details>
 
-## ⚙️ Code Architecture
+## 🔄 Neural Network Mechanics
 
-The system is modularly designed across several components:
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🔥 Gameplay Dynamics</h3>
+      <ul>
+        <li><b>Evolving Fragments:</b> Data nodes transform with each successful interface</li>
+        <li><b>Combo System:</b> Rapid packet transmissions yield exponential score growth</li>
+        <li><b>Progressive Difficulty:</b> Network resistance increases with each layer</li>
+      </ul>
+    </td>
+    <td width="50%">
+      <h3>🎛️ System Architecture</h3>
+      <ul>
+        <li><b><code>neurolink.py</code>:</b> Core system controller</li>
+        <li><b><code>sprites.py</code>:</b> Digital entity visualization</li>
+        <li><b><code>config.py</code>:</b> Network parameters</li>
+        <li><b><code>game_state.py</code>:</b> Synchronization tracking</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
-- `neurolink.py`: Core system controller with the main game loop
-- `config.py`: System parameters and configuration constants
-- `sprites.py`: Visual entity classes for all network objects
-- `sound_manager.py`: Digital audio signal processing
-- `game_state.py`: Network state and synchronization score tracking
+## ✨ Created with Amazon Q CLI
 
-## 🌟 Amazon Q Development Showcase
+<div align="center"><img src="https://img.shields.io/badge/Amazon%20Q-Powered-orange?style=for-the-badge&logo=amazon-aws"></div>
 
-This project was created for the **Amazon Q Summer Hack Challenge 2025** to demonstrate how AI assistants can enhance game development workflows. Amazon Q was used to:
+<br>
 
-- Generate initial game structure and mechanics
-- Debug complex rendering and collision detection algorithms
-- Implement visual effects and animations
-- Optimize performance across different environments
-- Transform the theme from a basic space shooter to an immersive cyberpunk experience
+This project showcases the potential of AI-assisted game development workflows, using Amazon Q CLI to:
 
-## 🎵 Audio Atmosphere
+- Generate core game architecture and mechanics
+- Debug rendering algorithms and collision detection
+- Create cyberpunk visual effects and dynamic animations
+- Optimize performance across platforms
+- Transform concepts into immersive gameplay experiences
 
-For the complete audio experience, add these recommended sound files to the `sounds` directory:
-- "Cyberpunk_Laser.wav" - For data packet transmission
-- "Digital_Explosion.wav" - For successful fragment recovery
-- "Neural_Powerup.wav" - For augmentation collection
-- "System_Alert.wav" - For damage notification
-- "Network_Victory.wav" - For level completion
+<br>
+
+<div align="center">
+
+---
+
+### 🚀 Ready to run NeuroLink?
+
+```bash
+git clone https://github.com/dipampaul17/neurolink.git
+cd neurolink
+./install.sh  # or install.bat on Windows
+python neurolink.py
+```
+
+<b>Experience the power of Amazon Q CLI in action!</b>
+
+<i>Developed for the Amazon Q Summer Hack Challenge 2025</i>
+
+</div>
