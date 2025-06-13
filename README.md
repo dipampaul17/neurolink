@@ -32,7 +32,7 @@
 
 Enter the digital grid as a Data Interceptor on a mission to recover corrupted fragments from the depths of cyberspace. Navigate through a vibrant neon landscape, interface with evolving data nodes, and battle against firewalls in this cyberpunk-themed arcade experience.
 
-*Built with Python, Pygame, and **Amazon Q CLI** for the 2025 AWS Summer Hack Challenge.*
+*Built with Python, Pygame, and **Amazon Q CLI** for the Amazon Q CLI Challenge.*
 
 ## ✨ Features & Gameplay
 
@@ -168,6 +168,6 @@ python neurolink.py
 
 <b>Experience the power of Amazon Q CLI in action!</b>
 
-<i>Developed for the Amazon Q Summer Hack Challenge 2025</i>
+<i>Developed for the Amazon Q CLI Challenge</i>
 
 </div>
